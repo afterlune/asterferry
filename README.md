@@ -17,6 +17,21 @@ Gateway <========== AFDP/1 over QUIC ==========> Agent
 
 Wire protocols are AFDP/1 and control/1. The database schema is v1.
 
+## Dashboard preview
+
+These screenshots show the Dashboard with fictional demo data.
+
+<table>
+  <tr>
+    <td align="center"><a href="docs/images/dashboard-overview.png"><img src="docs/images/dashboard-overview.png" alt="AsterFerry control-plane overview" width="100%" /></a><br /><sub>Control-plane overview</sub></td>
+    <td align="center"><a href="docs/images/dashboard-nodes.png"><img src="docs/images/dashboard-nodes.png" alt="Gateway and Agent node inventory" width="100%" /></a><br /><sub>Gateway and Agent nodes</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="docs/images/dashboard-node-system-info.png"><img src="docs/images/dashboard-node-system-info.png" alt="Node host information and runtime observations" width="100%" /></a><br /><sub>Host information and runtime observations</sub></td>
+    <td align="center"><a href="docs/images/dashboard-services.png"><img src="docs/images/dashboard-services.png" alt="Configured TCP and UDP services" width="100%" /></a><br /><sub>TCP and UDP services</sub></td>
+  </tr>
+</table>
+
 ## 3-minute Linux quickstart
 
 Requirements: a Linux Controller host, a reachable Controller address, and one

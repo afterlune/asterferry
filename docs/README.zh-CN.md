@@ -16,6 +16,21 @@ Gateway <========== AFDP/1 over QUIC ==========> Agent
 
 wire 协议是 AFDP/1 和 control/1，数据库 schema v1。
 
+## Dashboard 界面预览
+
+以下截图使用虚构的演示数据。
+
+<table>
+  <tr>
+    <td align="center"><a href="images/dashboard-overview.png"><img src="images/dashboard-overview.png" alt="AsterFerry 控制面运行概览" width="100%" /></a><br /><sub>控制面运行概览</sub></td>
+    <td align="center"><a href="images/dashboard-nodes.png"><img src="images/dashboard-nodes.png" alt="Gateway 和 Agent 节点清单" width="100%" /></a><br /><sub>Gateway 与 Agent 节点</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="images/dashboard-node-system-info.png"><img src="images/dashboard-node-system-info.png" alt="节点机器信息和运行观测" width="100%" /></a><br /><sub>机器信息与运行观测</sub></td>
+    <td align="center"><a href="images/dashboard-services.png"><img src="images/dashboard-services.png" alt="TCP 和 UDP 服务清单" width="100%" /></a><br /><sub>TCP 与 UDP 服务</sub></td>
+  </tr>
+</table>
+
 ## 三分钟 Linux 快速开始
 
 准备 Linux Controller 主机、Node 可访问的 Controller 地址，以及一台或多台
