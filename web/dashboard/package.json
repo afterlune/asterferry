@@ -17,19 +17,19 @@
   },
   "dependencies": {
     "openapi-fetch": "0.17.0",
-    "vue": "3.5.41",
-    "vue-router": "5.2.0"
+    "vue": "3.5.44",
+    "vue-router": "5.4.0"
   },
   "devDependencies": {
-    "@types/node": "26.2.0",
-    "@vitejs/plugin-vue": "6.0.8",
-    "@vue/test-utils": "2.4.11",
+    "@types/node": "26.6.6",
+    "@vitejs/plugin-vue": "6.0.10",
+    "@vue/test-utils": "2.5.1",
     "happy-dom": "20.11.6",
     "openapi-typescript": "7.13.0",
     "typescript": "5.9.3",
-    "vite": "8.2.2",
+    "vite": "8.3.5",
     "vitest": "4.1.11",
-    "vue-tsc": "3.3.11"
+    "vue-tsc": "3.3.13"
   },
   "overrides": {
     "glob": "10.5.0"
